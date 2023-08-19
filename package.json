@@ -1,7 +1,6 @@
 {
   "homepage": "https://ibrahimk4111.github.io/crud-reactjs-app",
   "name": "note-app",
-  "proxy": "https://note-app-syrw.onrender.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

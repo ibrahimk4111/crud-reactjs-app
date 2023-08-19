@@ -12,7 +12,7 @@ const NotesListPages = () => {
   }, []);
 
   const getNotes = async () => {
-    const response = await fetch("/api/notes/");
+    const response = await fetch("https://note-app-syrw.onrender.com/api/notes/");
     const data = await response.json();
     console.log(data)
     setNotes(data);

@@ -7,7 +7,7 @@ const DeleteNote = ({noteId}) => {
     //sent a request to backend and delete the note from database
     const deleteNote = async () =>{
         // calling the backend delete function by this url
-        fetch(`/api/notes/${noteId}/delete/`, {
+        fetch(`https://note-app-syrw.onrender.com/api/notes/${noteId}/delete/`, {
             method: 'DELETE',
             headers: {
                 "Content-Type": "application/json"

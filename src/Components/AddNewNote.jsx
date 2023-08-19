@@ -16,7 +16,7 @@ const AddNewNote = () => {
   const navigate = useNavigate();
   function handleCreate() {
     // call backend url and create model object to database
-    fetch("/api/notes/create/", {
+    fetch("https://note-app-syrw.onrender.com/api/notes/create/", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

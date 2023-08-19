@@ -9,7 +9,7 @@ const NotePage = () => {
 
   useEffect(() => {
     const getNote = async () => {
-      const response = await fetch(`/api/notes/${id}`);
+      const response = await fetch(`https://note-app-syrw.onrender.com/api/notes/${id}`);
       const data = await response.json();
       setNote(data);
     };

@@ -14,7 +14,7 @@ const UpdateNote = ({ Note }) => {
   const navigate = useNavigate()
   //updating backend database object
   const update_db_note = () => {
-    fetch(`/api/notes/${Note.id}/update/`, {
+    fetch(`https://note-app-syrw.onrender.com/api/notes/${Note.id}/update/`, {
       method: 'PUT',
       headers: {
         "Content-Type": "application/json"
